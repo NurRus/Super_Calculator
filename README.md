@@ -110,17 +110,77 @@
 
     - **Функции**:
   
-        | Описание функции | Функция |   
-        | ---------------- | ------- |  
-        | Вычисляет косинус | cos(x) |   
-        | Вычисляет синус | sin(x) |  
-        | Вычисляет тангенс | tan(x) |  
-        | Вычисляет арккосинус | acos(x) | 
-        | Вычисляет арксинус | asin(x) | 
-        | Вычисляет арктангенс | atan(x) |
-        | Вычисляет квадратный корень | sqrt(x) |
-        | Вычисляет натуральный логарифм | ln(x) | 
-        | Вычисляет десятичный логарифм | log(x) |
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица функций</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Описание функции</th>
+                <th>Функция</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Вычисляет косинус</td>
+                <td>cos(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет синус</td>
+                <td>sin(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет тангенс</td>
+                <td>tan(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет арккосинус</td>
+                <td>acos(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет арксинус</td>
+                <td>asin(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет арктангенс</td>
+                <td>atan(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет квадратный корень</td>
+                <td>sqrt(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет натуральный логарифм</td>
+                <td>ln(x)</td>
+            </tr>
+            <tr>
+                <td>Вычисляет десятичный логарифм</td>
+                <td>log(x)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
 
 Предусмотрен специальный режим «кредитный калькулятор»:
  - Вход: общая сумма кредита, срок, процентная ставка, тип (аннуитетный, дифференцированный).
