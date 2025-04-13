@@ -16,19 +16,97 @@
 У пользователя должна быть возможность ввода до 255 символов.
 Скобочные арифметические выражения в инфиксной нотации поддерживают следующие арифметические операции и математические функции:
 
-    - **Арифметические операторы**:
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица операторов</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Название оператора</th>
+                <th>Инфиксная нотация <br /> (Классическая)</th>
+                <th>Префиксная нотация <br /> (Польская нотация)</th>
+                <th>Постфиксная нотация <br /> (Обратная польская нотация)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Скобки</td>
+                <td>(a + b)</td>
+                <td>(+ a b)</td>
+                <td>a b +</td>
+            </tr>
+            <tr>
+                <td>Сложение</td>
+                <td>a + b</td>
+                <td>+ a b</td>
+                <td>a b +</td>
+            </tr>
+            <tr>
+                <td>Вычитание</td>
+                <td>a - b</td>
+                <td>- a b</td>
+                <td>a b -</td>
+            </tr>
+            <tr>
+                <td>Умножение</td>
+                <td>a * b</td>
+                <td>* a b</td>
+                <td>a b *</td>
+            </tr>
+            <tr>
+                <td>Деление</td>
+                <td>a / b</td>
+                <td>/ a b</td>
+                <td>a b /</td>
+            </tr>
+            <tr>
+                <td>Возведение в степень</td>
+                <td>a ^ b</td>
+                <td>^ a b</td>
+                <td>a b ^</td>
+            </tr>
+            <tr>
+                <td>Остаток от деления</td>
+                <td>a mod b</td>
+                <td>mod a b</td>
+                <td>a b mod</td>
+            </tr>
+            <tr>
+                <td>Унарный плюс</td>
+                <td>+a</td>
+                <td>+a</td>
+                <td>a+</td>
+            </tr>
+            <tr>
+                <td>Унарный минус</td>
+                <td>-a</td>
+                <td>-a</td>
+                <td>a-</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 
-        | Название оператора | Инфиксная нотация <br /> (Классическая) | Префиксная нотация <br /> (Польская нотация) |  Постфиксная нотация <br /> (Обратная польская нотация) |
-        | ------ | ------ | ------ | ------ |
-        | Скобки | (a + b) | (+ a b) | a b + |
-        | Сложение | a + b | + a b | a b + |
-        | Вычитание | a - b | - a b | a b - |
-        | Умножение | a * b | * a b | a b * |
-        | Деление | a / b | / a b | a b \ |
-        | Возведение в степень | a ^ b | ^ a b | a b ^ |
-        | Остаток от деления | a mod b | mod a b | a b mod |
-        | Унарный плюс | +a | +a | a+ |
-        | Унарный минус | -a | -a | a- |
 
     - **Функции**:
   
